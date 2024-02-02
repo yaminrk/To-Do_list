@@ -84,19 +84,19 @@ const SaveForm = () => {
         <div className="container mt-5">
             <div className="row">
                 <div className="col-md-4 p-2">
-                    <label className="form-label">Your Email Address</label>
+                    <label className="form-label">Email Address</label>
                     <input value={FormValue.email} onChange={(e)=>InputOnChange('email',e.target.value)} type="text" className="form-control" placeholder="Email"/>
                 </div>
                 <div className="col-md-4 p-2">
-                    <label className="form-label">Your Title</label>
+                    <label className="form-label">Title</label>
                     <input value={FormValue.title} onChange={(e)=>InputOnChange('title',e.target.value)} type="text" className="form-control" placeholder="Title"/>
                 </div>
                 <div className="col-md-4 p-2">
-                    <label className="form-label">Your Description</label>
+                    <label className="form-label">Description</label>
                     <input value={FormValue.description} onChange={(e)=>InputOnChange('description',e.target.value)} type="text" className="form-control" placeholder="Description"/>
                 </div>
                 <div className="col-md-4 p-2">
-                    <label className="form-label">Your Status</label>
+                    <label className="form-label">Status</label>
                     <input value={FormValue.status} onChange={(e)=>InputOnChange('status',e.target.value)}  type="text" className="form-control" placeholder="Status"/>
                 </div>
                 <div className="col-md-4 p-2">

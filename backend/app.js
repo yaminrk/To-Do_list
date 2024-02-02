@@ -28,16 +28,15 @@ app.use(express.static(path.join(__dirname, '../frontend/dist')));
 app.listen(3000, () => console.log('Server running on port 3000'));
 
 // Database Connection
-const username = 'todo_list';
-const URI = `mongodb://localhost/${username}`;
+const URI = 'mongodb+srv://Random:fmKp3qnq7cYaHxPJ@cluster0.zaaieuo.mongodb.net/?retryWrites=true&w=majority';
 mongoose.connect(URI, {useNewUrlParser: true, useUnifiedTopology: true})
     .then(() => {
-        console.log("Connected to user's database");
+        console.log("Connected to MongoDB Atlas");
     })
     .catch(err => {
         console.error(err);
-        res.status(500).json({status: "fail", data: "Database connection error"});
     });
+
 
 app.use("/api/v1", router);
 app.use("*", (req, res) => {
