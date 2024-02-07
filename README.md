@@ -1,6 +1,6 @@
 # To-Do List
 
-To-Do List is a full-stack web application that allows users to manage their tasks efficiently. The application is divided into two main parts: the frontend and the backend.
+To-Do List is a full-stack web application that allows users to manage their tasks efficiently between the group thats running this script. The application is divided into two main parts: the frontend and the backend.
 
 ## Technologies Used
 
