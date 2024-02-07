@@ -6,17 +6,16 @@ To-Do List is a full-stack web application that allows users to manage their tas
 
 ### Programming Languages
 
-- **JavaScript (ES6)**: JavaScript is a dynamic computer programming language. It is lightweight and most commonly used as a part of web pages, whose implementations allow a client-side script to interact with the user and make dynamic pages.
+- **JavaScript (ES6)**
 
 ### Libraries and Frameworks
 
-- **React.js**: React is a JavaScript library for building user interfaces. It allows developers to create large web applications that can update and render efficiently in response to data changes. Its component-based architecture greatly enhances reusability and readability of code.
-
-- **Bootstrap**: Bootstrap is a powerful front-end framework used for creating modern websites and web apps. It's open-source and free to use, yet features numerous HTML and CSS templates for UI interface elements as well as prebuilt components.
+- **React.js**
+- **Bootstrap**
 
 ### Database
 
-- **MongoDB**: MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. It provides high performance, high availability, and easy scalability.
+- **MongoDB**
 
 ## Structure
 
